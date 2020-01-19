@@ -21,6 +21,18 @@ router.get('/', (req, res) => {
 		.catch((e) => console.error(e.stack))
 })
 
-router.get('/:id', (req, res) => {})
+router.get('/:id', (req, res) => {
+	const { id } = req.params
+
+	client
+		.connect()
+		.then(() => {
+			client
+				.query(`select * from public.statistics where id = ${id}`)
+				.then((result) => res.send(result.rows))
+				.catch((e) => res.send(e.stack))
+		})
+		.catch((e) => res.send(e.stack))
+})
 
 module.exports = router
