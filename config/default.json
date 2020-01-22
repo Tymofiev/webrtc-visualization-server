@@ -1,3 +1,193 @@
 {
-	"connectionString": "postgresql://postgres:1111@localhost:5432/webrtc_visualization"
+	"connectionString": "postgresql://postgres:1111@localhost:5432/webrtc_visualization",
+	"all-data": {
+		"data": [
+			{
+				"type": "statistics",
+				"id": "11270321",
+				"attributes": {
+					"event-type": 7,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:51:13.980Z",
+					"updated-at": "2019-01-31T14:51:13.980Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270328",
+				"attributes": {
+					"event-type": 2,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:51:17.630Z",
+					"updated-at": "2019-01-31T14:51:17.630Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270331",
+				"attributes": {
+					"event-type": 2,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:51:19.421Z",
+					"updated-at": "2019-01-31T14:51:19.421Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270333",
+				"attributes": {
+					"event-type": 1,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:51:22.469Z",
+					"updated-at": "2019-01-31T14:51:22.469Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270337",
+				"attributes": {
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.116",
+					"stats": {
+						"audio": {
+							"bytes_sent": 7923548,
+							"packets_lost": 4476,
+							"packets_sent": 122927
+						},
+						"video": {
+							"bytes_sent": 368436211,
+							"frame_rate": 30,
+							"packets_lost": 19142,
+							"packets_sent": 453837
+						},
+						"timestamp": 1548946216148
+					},
+					"created-at": "2019-01-31T14:51:27.032Z",
+					"updated-at": "2019-01-31T14:51:27.032Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270338",
+				"attributes": {
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 8073230,
+							"packets_lost": 10003,
+							"packets_sent": 122943
+						},
+						"video": {
+							"bytes_sent": 137818284,
+							"frame_rate": 29,
+							"packets_lost": 12153,
+							"packets_sent": 157506
+						},
+						"timestamp": 1548946287277
+					},
+					"created-at": "2019-01-31T14:51:27.400Z",
+					"updated-at": "2019-01-31T14:51:27.400Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270339",
+				"attributes": {
+					"event-type": 3,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:51:28.395Z",
+					"updated-at": "2019-01-31T14:51:28.395Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270296",
+				"attributes": {
+					"event-type": -1,
+					"note": "OT_STREAM_DESTROYED: Stream was destroyed before it could be subscribed to",
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:50:40.755Z",
+					"updated-at": "2019-01-31T14:50:40.755Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270297",
+				"attributes": {
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 8238293,
+							"packets_lost": 6093,
+							"packets_sent": 125936
+						},
+						"video": {
+							"bytes_sent": 77493789,
+							"frame_rate": 15,
+							"packets_lost": 3796,
+							"packets_sent": 110821
+						},
+						"timestamp": 1548947527647
+					},
+					"created-at": "2019-01-31T14:50:42.136Z",
+					"updated-at": "2019-01-31T14:50:42.136Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "11270298",
+				"attributes": {
+					"event-type": 1,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": null,
+					"created-at": "2019-01-31T14:50:42.267Z",
+					"updated-at": "2019-01-31T14:50:42.267Z"
+				}
+			}
+		]
+	},
+	"single-data": {
+		"data": {
+			"type": "statistics",
+			"id": "11270337",
+			"attributes": {
+				"event-type": 4,
+				"note": null,
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.116",
+				"stats": {
+					"audio": {
+						"bytes_sent": 7923548,
+						"packets_lost": 4476,
+						"packets_sent": 122927
+					},
+					"video": {
+						"bytes_sent": 368436211,
+						"frame_rate": 30,
+						"packets_lost": 19142,
+						"packets_sent": 453837
+					},
+					"timestamp": 1548946216148
+				},
+				"created-at": "2019-01-31T14:51:27.032Z",
+				"updated-at": "2019-01-31T14:51:27.032Z"
+			}
+		}
+	}
 }
