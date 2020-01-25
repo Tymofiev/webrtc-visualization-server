@@ -17,6 +17,7 @@ router.get('/', (req, res) => {
 			.query('select * from public.statistics limit 10;')
 			.then((result) => {
 				var stats = StatSerializer.serialize(result.rows)
+				//res.send(stats)
 				res.send(config.get('all-data'))
 				done()
 			})

@@ -1,164 +1,261 @@
 {
-	"connectionString": "postgresql://postgres:1111@localhost:5432/webrtc_visualization",
+	"connectionString": "postgresql://postgres:1111@localhost:5432/webrtc",
 	"all-data": {
 		"data": [
 			{
 				"type": "statistics",
-				"id": "11270321",
+				"id": "10834286",
 				"attributes": {
-					"event-type": 7,
-					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:51:13.980Z",
-					"updated-at": "2019-01-31T14:51:13.980Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270328",
-				"attributes": {
-					"event-type": 2,
-					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:51:17.630Z",
-					"updated-at": "2019-01-31T14:51:17.630Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270331",
-				"attributes": {
-					"event-type": 2,
-					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:51:19.421Z",
-					"updated-at": "2019-01-31T14:51:19.421Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270333",
-				"attributes": {
-					"event-type": 1,
-					"note": null,
-					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:51:22.469Z",
-					"updated-at": "2019-01-31T14:51:22.469Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270337",
-				"attributes": {
+					"lesson-id": 334514,
 					"event-type": 4,
 					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.116",
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
 					"stats": {
 						"audio": {
-							"bytes_sent": 7923548,
-							"packets_lost": 4476,
-							"packets_sent": 122927
+							"bytes_sent": 10713897,
+							"packets_lost": 45,
+							"packets_sent": 161954
 						},
 						"video": {
-							"bytes_sent": 368436211,
+							"bytes_sent": 710768752,
+							"frame_rate": 31,
+							"packets_lost": 368,
+							"packets_sent": 657174
+						},
+						"timestamp": 1546592290112
+					},
+					"created-at": "2019-01-04T08:58:09.697Z",
+					"updated-at": "2019-01-04T08:58:09.697Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10834287",
+				"attributes": {
+					"lesson-id": 335932,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 5094822,
+							"packets_lost": 1263,
+							"packets_sent": 77886
+						},
+						"video": {
+							"bytes_sent": 130106640,
+							"frame_rate": 19,
+							"packets_lost": 1663,
+							"packets_sent": 128913
+						},
+						"timestamp": 1546592291696
+					},
+					"created-at": "2019-01-04T08:58:12.656Z",
+					"updated-at": "2019-01-04T08:58:12.656Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10834288",
+				"attributes": {
+					"lesson-id": 335932,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 5167218,
+							"packets_lost": 1013,
+							"packets_sent": 77821
+						},
+						"video": {
+							"bytes_sent": 76430608,
+							"frame_rate": 9,
+							"packets_lost": 2422,
+							"packets_sent": 72876
+						},
+						"timestamp": 1546592283334
+					},
+					"created-at": "2019-01-04T08:58:14.345Z",
+					"updated-at": "2019-01-04T08:58:14.345Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10834293",
+				"attributes": {
+					"lesson-id": 345839,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64; rv:60.0) Gecko/20100101 Firefox/60.0",
+					"stats": {
+						"audio": {
+							"bytes_sent": 7380146,
+							"packets_sent": 65768
+						},
+						"video": {
+							"bytes_sent": 210410268,
+							"frame_rate": 29.547799696509873,
+							"packets_sent": 192558
+						},
+						"timestamp": 1546591162205
+					},
+					"created-at": "2019-01-04T08:58:48.342Z",
+					"updated-at": "2019-01-04T08:58:48.342Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10834294",
+				"attributes": {
+					"lesson-id": 345839,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 4102942,
+							"packets_lost": 477,
+							"packets_sent": 65857
+						},
+						"video": {
+							"bytes_sent": 184870243,
+							"frame_rate": 17,
+							"packets_lost": 4071,
+							"packets_sent": 163643
+						},
+						"timestamp": 1546592328447
+					},
+					"created-at": "2019-01-04T08:58:48.616Z",
+					"updated-at": "2019-01-04T08:58:48.616Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10834296",
+				"attributes": {
+					"lesson-id": 334514,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 10912367,
+							"packets_lost": 45,
+							"packets_sent": 164954
+						},
+						"video": {
+							"bytes_sent": 723872206,
 							"frame_rate": 30,
-							"packets_lost": 19142,
-							"packets_sent": 453837
+							"packets_lost": 368,
+							"packets_sent": 669277
 						},
-						"timestamp": 1548946216148
+						"timestamp": 1546592350112
 					},
-					"created-at": "2019-01-31T14:51:27.032Z",
-					"updated-at": "2019-01-31T14:51:27.032Z"
+					"created-at": "2019-01-04T08:59:09.698Z",
+					"updated-at": "2019-01-04T08:59:09.698Z"
 				}
 			},
 			{
 				"type": "statistics",
-				"id": "11270338",
+				"id": "10834297",
 				"attributes": {
+					"lesson-id": 335932,
 					"event-type": 4,
 					"note": null,
-					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
 					"stats": {
 						"audio": {
-							"bytes_sent": 8073230,
-							"packets_lost": 10003,
-							"packets_sent": 122943
+							"bytes_sent": 5289379,
+							"packets_lost": 1405,
+							"packets_sent": 80885
 						},
 						"video": {
-							"bytes_sent": 137818284,
-							"frame_rate": 29,
-							"packets_lost": 12153,
-							"packets_sent": 157506
+							"bytes_sent": 132459207,
+							"frame_rate": 19,
+							"packets_lost": 1784,
+							"packets_sent": 131568
 						},
-						"timestamp": 1548946287277
+						"timestamp": 1546592351699
 					},
-					"created-at": "2019-01-31T14:51:27.400Z",
-					"updated-at": "2019-01-31T14:51:27.400Z"
+					"created-at": "2019-01-04T08:59:12.488Z",
+					"updated-at": "2019-01-04T08:59:12.488Z"
 				}
 			},
 			{
 				"type": "statistics",
-				"id": "11270339",
+				"id": "10806373",
 				"attributes": {
-					"event-type": 3,
-					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:51:28.395Z",
-					"updated-at": "2019-01-31T14:51:28.395Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270296",
-				"attributes": {
-					"event-type": -1,
-					"note": "OT_STREAM_DESTROYED: Stream was destroyed before it could be subscribed to",
-					"user-agent": "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:50:40.755Z",
-					"updated-at": "2019-01-31T14:50:40.755Z"
-				}
-			},
-			{
-				"type": "statistics",
-				"id": "11270297",
-				"attributes": {
+					"lesson-id": 142712,
 					"event-type": 4,
 					"note": null,
-					"user-agent": "Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_3) AppleWebKit/604.5.6 (KHTML, like Gecko) Version/11.0.3 Safari/604.5.6",
 					"stats": {
 						"audio": {
-							"bytes_sent": 8238293,
-							"packets_lost": 6093,
-							"packets_sent": 125936
+							"bytes_sent": 3652927,
+							"packets_sent": 62953
 						},
 						"video": {
-							"bytes_sent": 77493789,
-							"frame_rate": 15,
-							"packets_lost": 3796,
-							"packets_sent": 110821
+							"bytes_sent": 256548052,
+							"frame_rate": 29.98,
+							"packets_sent": 232665
 						},
-						"timestamp": 1548947527647
+						"timestamp": 1546062863913
 					},
-					"created-at": "2019-01-31T14:50:42.136Z",
-					"updated-at": "2019-01-31T14:50:42.136Z"
+					"created-at": "2018-12-29T05:54:23.984Z",
+					"updated-at": "2018-12-29T05:54:23.984Z"
 				}
 			},
 			{
 				"type": "statistics",
-				"id": "11270298",
+				"id": "10806376",
 				"attributes": {
-					"event-type": 1,
+					"lesson-id": 280375,
+					"event-type": 4,
 					"note": null,
-					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
-					"stats": null,
-					"created-at": "2019-01-31T14:50:42.267Z",
-					"updated-at": "2019-01-31T14:50:42.267Z"
+					"user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 3936401,
+							"packets_lost": 122,
+							"packets_sent": 65966
+						},
+						"video": {
+							"bytes_sent": 214718724,
+							"frame_rate": 14,
+							"packets_lost": 193,
+							"packets_sent": 189723
+						},
+						"timestamp": 1546062924398
+					},
+					"created-at": "2018-12-29T05:55:24.086Z",
+					"updated-at": "2018-12-29T05:55:24.086Z"
+				}
+			},
+			{
+				"type": "statistics",
+				"id": "10820951",
+				"attributes": {
+					"lesson-id": 343775,
+					"event-type": 4,
+					"note": null,
+					"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+					"stats": {
+						"audio": {
+							"bytes_sent": 2970004,
+							"packets_lost": 5289,
+							"packets_sent": 50875
+						},
+						"video": {
+							"bytes_sent": 15269274,
+							"frame_rate": 8,
+							"packets_lost": 1854,
+							"packets_sent": 17647
+						},
+						"timestamp": 1546269418412
+					},
+					"created-at": "2018-12-31T15:16:59.081Z",
+					"updated-at": "2018-12-31T15:16:59.081Z"
 				}
 			}
 		]
@@ -166,27 +263,28 @@
 	"single-data": {
 		"data": {
 			"type": "statistics",
-			"id": "11270337",
+			"id": "10820951",
 			"attributes": {
+				"lesson-id": 343775,
 				"event-type": 4,
 				"note": null,
-				"user-agent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 OPR/57.0.3098.116",
+				"user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
 				"stats": {
 					"audio": {
-						"bytes_sent": 7923548,
-						"packets_lost": 4476,
-						"packets_sent": 122927
+						"bytes_sent": 2970004,
+						"packets_lost": 5289,
+						"packets_sent": 50875
 					},
 					"video": {
-						"bytes_sent": 368436211,
-						"frame_rate": 30,
-						"packets_lost": 19142,
-						"packets_sent": 453837
+						"bytes_sent": 15269274,
+						"frame_rate": 8,
+						"packets_lost": 1854,
+						"packets_sent": 17647
 					},
-					"timestamp": 1548946216148
+					"timestamp": 1546269418412
 				},
-				"created-at": "2019-01-31T14:51:27.032Z",
-				"updated-at": "2019-01-31T14:51:27.032Z"
+				"created-at": "2018-12-31T15:16:59.081Z",
+				"updated-at": "2018-12-31T15:16:59.081Z"
 			}
 		}
 	}
